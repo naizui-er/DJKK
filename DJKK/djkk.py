@@ -4,7 +4,7 @@ import threading
 from fake_useragent import UserAgent
 
 session = requests.Session()
-
+# 更新
 ua = UserAgent().random
 headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
